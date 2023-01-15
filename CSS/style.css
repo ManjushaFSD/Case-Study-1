@@ -5,7 +5,8 @@
 
 /* header-navbar */
 body{
-  background-color: rgb(218, 209, 40);
+  background-color: rgb(7, 7, 7);
+  font-family:cursive;
 }
 .navigation {
   margin-top: 30px;
@@ -21,13 +22,15 @@ body{
   border: 1px solid white;
   border-radius: 8px;
   transition: 2s ease-in-out;
-  background-color: rgba(8, 8, 8, 0.725);
+  background-color: rgba(16, 16, 16, 0.725);
 }
 .navigation > a:hover{
   background-color:rgb(169, 167, 167);
   transform: scaleX(2);
 }
 .hero {
+  
+  color: white;
   text-align: center;
   margin: 250px;
   font-weight: 300;
@@ -37,7 +40,7 @@ body{
 }
 @keyframes cursor {
 	0%, 100% { 
-    border-color: #212121; 
+    border-color: #121111; 
   }
 }
 
@@ -61,8 +64,10 @@ body{
 }
 #about h1 {
   font-size: 250%;
+  color: white;
 }
 #about > p {
+  color: white;
   padding: 100px;
   font-size: larger;
   margin-bottom: 100px;
@@ -70,7 +75,7 @@ body{
 }
 .skills-header {
   text-align: center;
-  color: rgb(11, 11, 11);
+  color: white;
   padding: 1rem;
   position: relative;
   margin-bottom: 25px;
@@ -86,7 +91,7 @@ body{
 
 .skills-header {
   text-align: center;
-  color: black;
+  color: white;
   padding: 1rem;
   position: relative;
 }
@@ -179,7 +184,7 @@ body{
   border-radius: 45px 0 0 45px;
 }
 .skills-title h3 {
-  color: #333;
+  color: rgb(200, 103, 103);
   margin-top: 0.5rem;
 }
 @media screen and (max-width: 990px) {
@@ -197,6 +202,7 @@ body{
 }
 
 #education {
+  color: white;
   text-align: center;
   margin-top: 100px;
   font-size: 130%;
@@ -204,7 +210,7 @@ body{
 table , td , th {
    margin:130px;
    line-height: 1.8;
-   border: #000 1px solid;
+   border: rgb(241, 214, 214) 1px solid;
    padding: 10px;
 
    width: 70%;
@@ -218,6 +224,7 @@ table , td , th {
 .exp-header{
   font-size: 130%;
   margin-bottom: 100px;
+  color: white;
 }
 
 .exp-header >p {
@@ -228,11 +235,13 @@ table , td , th {
 }
 
 #contact{
+  color: white;
   text-align: center;
   margin:100px;
 }
 
 .image-icon{
+  color:white;
   padding: 10px;
   height:20px;
   width:20px;
@@ -242,6 +251,7 @@ line-height: 2;
 }
 
 footer{
-  color:black;
+  color:rgb(251, 251, 251);
   text-align: center;
+  margin: 50px;
 }
